@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (too large to put in Git)
+data/*.csv
+data/*.json
+data/*.zip
+*.h5
+*.hdf5
+
+# Model weight files
+models/*.pt
+models/*.pth
+models/*.onnx
+*.bin
+
+# Environment variable files (contain API keys and other sensitive information)
+.env
+.env.local
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
